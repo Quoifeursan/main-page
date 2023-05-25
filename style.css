@@ -1,0 +1,73 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Styles pour la bannière */
+  .banner {
+    background-color: #00122c;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .banner h1 {
+    margin: 0;
+  }
+  
+  /* Styles pour le menu */
+  .container {
+    flex: 1;
+    display: flex;
+  }
+  
+  nav {
+    background-color: #001c44;
+    width: 150px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000; /* Rouge */
+  }
+  
+  /* Styles pour le contenu principal */
+  section {
+    padding: 20px;
+    flex: 1;
+    background-color: #00205a;
+    color: #ffffff;
+  }
+  
+  /* Styles pour le pied de page */
+  footer {
+    background-color: #00122c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
