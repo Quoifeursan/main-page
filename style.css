@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
   }
   
   html, body {
@@ -34,7 +35,7 @@
   
   nav {
     background-color: #001c44;
-    width: 150px;
+    width: 170px;
   }
   
   nav ul {
