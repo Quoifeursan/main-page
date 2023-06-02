@@ -48,6 +48,11 @@
     padding: 10px;
     
   }
+
+  nav ul li p {
+    color: #ffffff;
+  }
+
   
   nav ul li a,
   .container section a {
