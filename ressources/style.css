@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+    background: linear-gradient( 90deg,#031b48, #00071d);
+    
+  }
+  
+  html, body {
+    height: 100%;
+    
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Styles pour la bannière */
+  .banner {
+    background-color: #ffffff00;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid #8ddbff;
+    margin: 0.5%;
+  }
+  
+  .banner h1 {
+    margin: 0;
+  }
+  
+  /* Styles pour le menu */
+  .container {
+    flex: 1;
+    display: flex;
+  }
+  
+  nav {
+    margin: 0.5%;
+    background-color: #001c4400;
+    width: 170px;
+     color: #ffffff;
+     border: solid #8ddbff;
+     border-radius: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    padding: 10px;
+    
+  }
+
+  nav ul li p {
+    color: #ffffff;
+  }
+
+  
+  nav ul li a,
+  .container section a {
+      text-decoration: none;
+      color: #8ddbff;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000; /* Rouge */
+  }
+  
+  /* Styles pour le contenu principal */
+  section {
+    padding: 20px;
+    flex: 1;
+    background-color: #00205a00;
+    color: #ffffff;
+    border: solid #8ddbff;
+    border-radius: 10px;
+    margin: 0.5%;
+  }
+  
+  /* Styles pour le pied de page */
+  footer {
+    background-color: #00122c00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0.5%;
+    border: solid #8ddbff;
+    border-radius: 10px;
+  }
+  #bouttonCo a {
+    color: white;
+    list-style-type: none;
+    width: 100%;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+  
+  }
+  #bouttonCo button:hover {
+    scale: 1.04;
+    transition: all 0.2s ease-in-out;
+  }
+  #bouttonCo button {
+    background:  linear-gradient(90deg, #0f24e0, #00bac7);
+    border-radius: 10px;
+    width: 30%;
+    padding: 2%;
+    border: 0;
+    transition: all 0.1s ease-in-out;
+  
+  }
+
+
+  #bouttonSite a {
+    color: white;
+    list-style-type: none;
+    width: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+  
+  }
+  #bouttonSite button:hover {
+    scale: 1.04;
+    transition: all 0.2s ease-in-out;
+  }
+  #bouttonSite button {
+    background:  linear-gradient(90deg, #0f24e0, #00bac7);
+    border-radius: 10px;
+    width: 15%;
+    padding: 0.4%;
+    border: 0;
+    transition: all 0.1s ease-in-out;
+  
+  }
+  
