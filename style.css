@@ -1,13 +1,16 @@
-/* Réinitialisation des styles par défaut */
-* {
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Gill Sans", sans-serif;
+    background: linear-gradient( 90deg,#031b48, #00071d);
+    
   }
   
   html, body {
     height: 100%;
+    
   }
   
   .wrapper {
@@ -18,9 +21,12 @@
   
   /* Styles pour la bannière */
   .banner {
-    background-color: #00122c;
+    background-color: #ffffff00;
     color: #fff;
     padding: 20px;
+    border-radius: 10px;
+    border: solid #8ddbff;
+    margin: 0.5%;
   }
   
   .banner h1 {
@@ -34,9 +40,12 @@
   }
   
   nav {
-    background-color: #001c44;
+    margin: 0.5%;
+    background-color: #001c4400;
     width: 170px;
      color: #ffffff;
+     border: solid #8ddbff;
+     border-radius: 10px;
   }
   
   nav ul {
@@ -68,15 +77,21 @@
   section {
     padding: 20px;
     flex: 1;
-    background-color: #00205a;
+    background-color: #00205a00;
     color: #ffffff;
+    border: solid #8ddbff;
+    border-radius: 10px;
+    margin: 0.5%;
   }
   
   /* Styles pour le pied de page */
   footer {
-    background-color: #00122c;
+    background-color: #00122c00;
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin: 0.5%;
+    border: solid #8ddbff;
+    border-radius: 10px;
   }
   
