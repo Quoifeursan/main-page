@@ -146,12 +146,14 @@ body {
   
   .article{
     border-radius: 10px;
+    padding: 10px;
     border: solid #8ddbff;
+    background-color: #101f46;
     
   }
 
   .article:hover{
-   background-color: #1b1c50;
+   background-color: #294175;
   }
 
   .ssb64o img{
