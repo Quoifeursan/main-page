@@ -72,7 +72,7 @@ body {
   nav ul li a:hover {
     background-color: #204dca; /* Rouge */
     border-radius: 10px;
-    margin: 20%;
+
     padding: 2%;
   }
   
@@ -102,7 +102,7 @@ body {
     list-style-type: none;
     width: 100%;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
   
   }
@@ -112,9 +112,9 @@ body {
   }
   #bouttonCo button {
     background:  linear-gradient(90deg, #0f24e0, #00bac7);
-    border-radius: 10px;
-    width: 50%;
-    padding: 2%;
+    border-radius: 20px;
+    width: 200px;
+    padding: 1%;
     border: 0;
     transition: all 0.1s ease-in-out;
   
@@ -144,3 +144,17 @@ body {
   
   }
   
+  .article{
+    border-radius: 10px;
+    border: solid #8ddbff;
+    
+  }
+
+  .article:hover{
+   background-color: #1b1c50;
+  }
+
+  .ssb64o img{
+    width : 50%;
+    height: 50%; 
+  }
