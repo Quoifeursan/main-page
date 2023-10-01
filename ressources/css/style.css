@@ -160,3 +160,9 @@ body {
     width : 50%;
     height: 50%; 
   }
+  .img100 img{
+    width : 50%;
+    height: 50%; 
+    border: solid #e71a1a;
+
+  }
