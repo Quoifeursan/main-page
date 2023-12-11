@@ -13,40 +13,73 @@
       <div class="banner">
         <img src="ressources/img/logomain.png" alt="logo" width="100" height="40">
 
+  
+    
+            <a href="https://www.zaaq.fr">Accueil</a>
+            <a href="ressources/pages/external.html">Sites</a>    
+             
+            <a href="ressources/pages/ssb.html">Smash</a>     
+            <a href="ressources/pages/contact.html">Contact</a>
+            <!--<a onclick="resetAccount()" href="index.html"  id="theName"></a>-->
+              
+
+                
+            
+          
+
+
         <!--<h1>ZAAQ</h1>-->
       </div>
     </header>
 
     <div class="container">
-      <nav>
-        <ul>
-
-          <li><b>Menu</b></li>
-          <li><a href="https://www.zaaq.fr">Accueil</a></li> 
-          <li><a href="ressources/pages/external.html">Sites</a></li>      
-           
-          <li><a href="ressources/pages/ssb.html">Smash</a></li>       
-          <li><a href="ressources/pages/contact.html">Contact</a></li>
-            
       
-              
-          
-        </ul>
-      </nav>
 
       <section>
-        <h1>Bienvenue sur Zaaq</h1>
+        <h1 id="userName"></h1>
         
         <p><br>Bienvenue sur zaaq.fr, un portail donnant accès à une multitude de site webs, ressources et autres choses intéréssantes. Naviguez via la barre lattérale sur les différents sujets.<br><br>
           
           
-        <div id="bouttonCo">
-          <button> <a href="ressources/external.html">Commencez ici !</a></button>
-    
+          <div id="bouttonCo">
+            <button onclick="popupInscription()"><a>  Commencez ici ! </a> </button>
+          </div>
+        
+        
+        
+
+
+
+
+        <div id="popupInsc" class="popup-container">
+
+          <h2>Rejoignez-nous !</h2>
+          
+          <div class="input">
+            <label for="prénom">Nom</label>
+            <div class="inputa"><input type="text" id="prénom" name="prenom" required minlength="4" maxlength="30" size="30" /></div>
+          </div>
+          
+          <br>
+          <div class="input">
+            <label for="name">Autre info</label>
+            <div class="inputa"><input type="text" id="name" name="nom" required minlength="4" maxlength="30" size="30" /></div>
+          </div>
+          <br>
+          <div id="bouttonCo">
+            <button id="submit-connexion"> <a href="index.html">S'inscrire</a></button>
+          </div>
+
+
+
+          <!--<button onclick="closePopup()">Close</button> -->
         </div>
-        
-        
-        
+        <div id="overlay" class="overlay"></div>
+
+
+
+
+
         
         
       </section>
@@ -56,6 +89,11 @@
       <p>© 2023 - ZAAQ - ArthurM</p>
     </footer>
   </div>
-  <script src="script.js"></script>
+  <!--<script src="ressources/js/onload.js"></script>
+  <script src="ressources/js/inscription.js"></script>
+  <script src="ressources/js/popup.js"></script>
+  <script src="ressources/js/nameload.js"></script>
+  <script src="ressources/js/hoverCompte.js"></script>-->
+
 </body>
 </html>
