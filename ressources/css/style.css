@@ -41,14 +41,14 @@ body {
       font-size: 20px;
       margin-left: 0.5%;
       margin-right: 0.5%;
-      background-color: #e5ff00;
+      background-color: #ffea00;
       border-radius: 10px;
       padding: 0.5%;
       
   }
 
   .banner a:hover{
-    background-color: #949600; /* Rouge */
+    background-color: #ffc400; /* Rouge */
     border-radius: 10px;
 
     padding: 0.7%;
