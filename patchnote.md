@@ -1,7 +1,11 @@
 #History version of zaaq.fr
+#2.5
+``Changement graphique pour un thème plus visuel``
+*Correction de bugs:*
+*- Boutton d'accès sur la page d'accueil*
 
 #2.4
-``Changement de la page contact pour une page inormation avec affichage des pach notes
+``Changement de la page contact pour une page inormation avec affichage des pach notes``
 *Correction de bugs:*
 *- Système de connexion bouclant sur l'actualisation de la page, le developpement de ce système est mis en pause*
 

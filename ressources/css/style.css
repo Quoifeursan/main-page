@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Gill Sans", sans-serif;
-    background: linear-gradient( 90deg,#031b48, #00071d);
+    /*background: linear-gradient(90deg, #490067, #00071d);*/
     
   }
   
@@ -25,8 +25,9 @@ body {
     color: #fff;
     padding: 20px;
     border-radius: 10px;
-    border: solid #8ddbff;
+    border: solid #fb00ff;
     margin: 0.5%;
+    
     
   }
   
@@ -36,18 +37,18 @@ body {
   }
   .banner a{
     text-decoration: none;
-      color: #8ddbff;
+      color: #360041;
       font-size: 20px;
       margin-left: 0.5%;
       margin-right: 0.5%;
-      background-color: #204dca;
+      background-color: #e5ff00;
       border-radius: 10px;
       padding: 0.5%;
       
   }
 
   .banner a:hover{
-    background-color: #204dca; /* Rouge */
+    background-color: #949600; /* Rouge */
     border-radius: 10px;
 
     padding: 0.7%;
@@ -62,53 +63,20 @@ body {
     display: flex;
   }
   
-  nav {
-    margin: 0.5%;
-    background-color: #001c4400;
-    width: 20%;
-     color: #ffffff;
-     border: solid #8ddbff;
-     border-radius: 10px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    padding: 10px;
-    
-  }
 
-  nav ul li p {
-    color: #ffffff;
-  }
-
-  
-  nav ul li a,
-  .container section a {
-      text-decoration: none;
-      color: #8ddbff;
-  }
-  
-  nav ul li a:hover {
-    background-color: #204dca; /* Rouge */
-    border-radius: 10px;
-
-    padding: 2%;
-  }
-  
   /* Styles pour le contenu principal */
   section {
     padding: 20px;
     flex: 1;
     background-color: #00205a00;
-    color: #ffffff;
-    border: solid #8ddbff;
+    color: #00fbff;
+    border: solid #fb00ff;
     border-radius: 10px;
     margin: 0.5%;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+    
   }
+
   
   /* Styles pour le pied de page */
   footer {
@@ -117,7 +85,7 @@ body {
     padding: 20px;
     text-align: center;
     margin: 0.5%;
-    border: solid #8ddbff;
+    border: solid #fb00ff;
     border-radius: 10px;
   }
   #bouttonCo a {
@@ -134,7 +102,7 @@ body {
     transition: all 0.2s ease-in-out;
   }
   #bouttonCo button {
-    background:  linear-gradient(90deg, #0f24e0, #00bac7);
+    background:  linear-gradient(90deg, #ffea00, #ffbb00);
     border-radius: 20px;
     width: 200px;
     padding: 1%;
@@ -158,7 +126,7 @@ body {
     transition: all 0.2s ease-in-out;
   }
   #bouttonSite button {
-    background:  linear-gradient(90deg, #0f24e0, #00bac7);
+    background:  linear-gradient(90deg, #ffea00, #ffbb00);
     border-radius: 10px;
     width: 15%;
     padding: 0.4%;
@@ -170,14 +138,19 @@ body {
   .article{
     border-radius: 10px;
     padding: 10px;
-    border: solid #8ddbff;
-    background-color: #101f46;
+    border: solid #fb00ff;
+    background-color: #490067;
     
   }
 
   .article:hover{
-   background-color: #294175;
+   background-color: #7600a4;
   }
+
+  a{
+    color: #eaca00;
+    text-decoration: none;
+   }
 
   .ssb64o img{
     width : 50%;
@@ -191,10 +164,28 @@ body {
   }
 
 
+  .sun {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Utilise 100% de la hauteur de la fenêtre */
+    width: 300vh;
+    pointer-events: none;
+    z-index: -1; /* Assurez-vous que l'image est au-dessus du contenu si nécessaire */
+    background: linear-gradient(#490067, #000000);
+}
 
-
+.sun img {
+    width: auto;
+    height: 80%; /* Utilise 100% de la hauteur du conteneur parent */
+    object-fit: cover;
+    top: 20%;
+    left: 30%;
 
 }
+
+
+
 .input{
     display: flex;
     justify-content: center;
@@ -235,30 +226,8 @@ input:focus{
 }
 
 
-#bouttonCo button {
-	background:  linear-gradient(90deg, #0f24e0, #00bac7);
-	border-radius: 10px;
-	width: 50%;
-	padding: 2%;
-	border: 0;
-	transition: all 0.1s ease-in-out;
 
-}
 
-#bouttonCo a {
-	color: white;
-	list-style-type: none;
-	width: 100%;
-	font-weight: 700;     
-	text-decoration: none;
-
-}
-
-#bouttonCo button:hover {
-	scale: 1.04;
-	transition: all 0.2s ease-in-out;
-	color: rgb(255, 255, 255)
-}
 
 .popup-container {
 	display: none;
@@ -276,7 +245,7 @@ input:focus{
 	font-family: 'Poppins', sans-serif;
 	border-radius: 10px;
 	color: #9de9f3;
-	border: solid #0b40b3;
+	border: solid #fb00ff;
 }
 
 .overlay {
